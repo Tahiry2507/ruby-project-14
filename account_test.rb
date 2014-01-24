@@ -18,3 +18,5 @@ class TestAccount < MiniTest::Unit::TestCase
     assert_equal(140, a.transfer(10, b))
   end
 end
+
+# time spent = 6 hours
