@@ -7,7 +7,7 @@ class TestAccount < MiniTest::Unit::TestCase
   end
 
   def test_deposit_withdraw_transfer
-  	a = Account.new
+    a = Account.new
   	b = Account.new
   	a.account_holder = "Steve"
   	b.account_holder = "Tahiry"
