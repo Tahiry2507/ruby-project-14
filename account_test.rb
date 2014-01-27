@@ -8,10 +8,10 @@ class TestAccount < MiniTest::Unit::TestCase
 
   def test_deposit_withdraw_transfer
     a = Account.new
-  	b = Account.new
-  	a.account_holder = "Steve"
-  	b.account_holder = "Tahiry"
-  	a.deposit(100)
+    b = Account.new
+    a.account_holder = "Steve"
+    b.account_holder = "Tahiry"
+    a.deposit(100)
   	assert_equal(100, a.balance)
     assert_equal(200, a.deposit(100))
     assert_equal(150, a.withdraw(50))
